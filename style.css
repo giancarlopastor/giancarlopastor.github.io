@@ -479,11 +479,11 @@ h3 {
 }
 
 
+
 /* AFFILIATIONS */
 
 .side-panel {
   border-left: 1px solid var(--line);
-
   padding-left: 30px;
 }
 
@@ -494,39 +494,34 @@ h3 {
 
 
 .affiliation {
-  padding: 0 0 17px;
-
-  margin-bottom: 17px;
-
+  padding: 6px 0 22px;
+  margin-bottom: 18px;
   border-bottom: 1px solid var(--line);
 }
 
 
+.affiliation:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+
 .affiliation strong,
-.affiliation span,
-.affiliation small {
+.affiliation span {
   display: block;
 }
 
 
 .affiliation strong {
   color: var(--navy);
+  margin-bottom: 4px;
 }
 
 
 .affiliation span {
-  margin-top: 3px;
-
-  color: var(--text);
-}
-
-
-.affiliation small {
-  margin-top: 2px;
-
   color: var(--muted);
+  font-size: 14px;
 }
-
 
 /* CONTACT */
 
