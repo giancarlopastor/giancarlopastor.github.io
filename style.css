@@ -317,8 +317,11 @@ h3 {
 
 .expertise-card p:last-child {
   margin-bottom: 0;
-
   font-size: 15px;
+
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 
@@ -681,4 +684,21 @@ h3 {
     gap: 5px;
   }
 
+}
+
+.contact-footer {
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+
+  border-top: 1px solid var(--line);
+}
+
+.contact-footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.contact-footer a:hover {
+  text-decoration: underline;
 }
