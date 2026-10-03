@@ -361,24 +361,25 @@ h3 {
 .collaborator {
   flex: 0 0 190px;
 
-  min-height: 92px;
+  height: 110px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
-  padding: 18px;
-
-  text-align: center;
-
-  font-weight: 600;
-
-  color: var(--navy);
+  padding: 20px 24px;
 
   border-right: 1px solid var(--line);
 }
 
+.collaborator img {
+  height: 48px;
+  width: auto;
+  max-width: 145px;
+
+  object-fit: contain;
+  display: block;
+}
 
 .collaborator:last-child {
   border-right: none;
